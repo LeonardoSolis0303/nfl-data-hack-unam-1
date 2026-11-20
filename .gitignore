@@ -48,3 +48,24 @@ data/**/*.sqlite3
 # Artifacts
 *.zip
 *.tar.gz
+
+.venv/
+.hackathon/.tools/
+.hackathon/.cache/
+.hackathon/.bootstrap/
+.hackathon/setup.log
+node_modules/
+dist/
+__pycache__/
+
+# Llaves y credenciales: nunca al repositorio
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.aws/
+
+/data/*
+!/data/README.md
+setup-log.txt
