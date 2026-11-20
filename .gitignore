@@ -1,1 +1,50 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
 
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Node / Vite
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*.log
+*.log
+
+# Local datasets and exports — review rights before versioning
+data/**/*.csv
+data/**/*.parquet
+data/**/*.zip
+data/**/*.jsonl
+data/**/*.feather
+data/**/*.arrow
+data/**/*.db
+data/**/*.sqlite
+data/**/*.sqlite3
+!data/README.md
+
+# Artifacts
+*.zip
+*.tar.gz
